@@ -39,3 +39,25 @@ print(b)
 # 添加update
 b.update('1234')
 print(b)
+
+# 判断是否在集合中
+c = '3' in b
+print(c)
+
+# 交并差
+d = set()
+d.update('345')
+print(d)
+
+# 交集
+e = b & d
+print(e)
+
+# 并集
+f = b | d
+print(f)
+
+# 差集
+g = b - d
+print(g)
+
